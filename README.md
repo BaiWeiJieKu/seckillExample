@@ -194,6 +194,6 @@ SELECT @r_result;
 ```
 
 - com.qinfen.dao.SeckillDao#killByProcedure（mybatis调用存储过程执行秒杀）
-- com.qinfen.service.SeckillService#executeSeckillProcedure
-- com.qinfen.web.SeckillController#execute
+- com.qinfen.service.SeckillService#executeSeckillProcedure（service层）
+- com.qinfen.web.SeckillController#execute（controller层）
 
